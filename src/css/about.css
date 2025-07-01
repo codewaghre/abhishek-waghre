@@ -1,0 +1,254 @@
+.about {
+    width: 100%;
+    padding-inline: 100px;
+    padding-block-start: 50px;
+    padding-block-end: 50px;
+}
+
+
+.about-container {
+    display: flex;
+    width: 100%;
+    padding-block-start: 30px;
+}
+
+.about-info-container {
+    width: 80%;
+}
+
+.about-text-heading {
+    color: var(--para-color);
+    font-size: 0.9rem;
+}
+
+.bold-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.about-text-heading,
+.about-para-one,
+.about-para-two,
+.connect-with-me {
+    padding-inline-end: 20px;
+    padding-block-end: 20px;
+    color: var(--para-color);
+    white-space: normal;
+    line-height: 24px;
+    word-spacing: 0;
+    letter-spacing: normal;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
+
+
+.stats-container {
+    width: 40%;
+    margin-block-start: -50px;
+}
+
+.exp-stats-container,
+.project-stats-container,
+.tech-stats-container {
+    padding: 10px;
+    border: 1px solid var(--line-color);
+    border-radius: 12px;
+    margin-block-end: 10px;
+}
+
+.exp,
+.projects,
+.tech {
+    padding-inline: 20px;
+    padding-block: 20px;
+    transition: transform 0.3s ease-in-out;
+
+    h1 {
+        padding-block-end: 6px;
+        font-size: 2rem;
+    }
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+}
+
+.tagline {
+    padding-block-end: 20px;
+    color: var(--text-color);
+}
+
+.taglinetwo {
+    padding-block-start: 20px;
+    color: var(--para-color);
+}
+
+.exp {
+    backdrop-filter: blur(6px) saturate(158%);
+    -webkit-backdrop-filter: blur(6px) saturate(158%);
+    background-color: rgba(40, 56, 169, 0.41);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.projects {
+    backdrop-filter: blur(6px) saturate(158%);
+    -webkit-backdrop-filter: blur(6px) saturate(158%);
+    background-color: rgba(4, 16, 105, 0.41);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+.tech {
+    backdrop-filter: blur(6px) saturate(158%);
+    -webkit-backdrop-filter: blur(6px) saturate(158%);
+    background-color: rgba(1, 6, 27, 0.41);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+@media (min-width: 900px) and (max-width: 1100px) {
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-info-container {
+        width: 100%;
+    }
+
+    .stats-container {
+        width: 100%;
+    }
+
+
+
+    .stats {
+        padding-block-start: 20px;
+        display: flex;
+        width: 100%;
+        gap: 10px;
+
+    }
+
+
+    .exp,
+    .projects,
+    .tech {
+        height: 270px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+
+    .about {
+        width: 100%;
+        padding-inline: 50px;
+        padding-block-start: 30px;
+        padding-block-end: 50px;
+    }
+
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-info-container {
+        width: 100%;
+    }
+
+    .about-text-heading {
+        color: var(--para-color);
+        font-size: 0.8rem;
+    }
+
+    .bold-text {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--text-color);
+    }
+
+    .about-para-one,
+    .about-para-two {
+        font-size: 0.8rem;
+    }
+
+
+    .stats-container {
+        width: 100%;
+        padding-block-start: 80px;
+    }
+
+    .home-page-socials {
+        padding-block-end: 10px;
+    }
+}
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    .about {
+        width: 100%;
+        padding-inline: 30px;
+        padding-block-start: 40px;
+        padding-block-end: 50px;
+    }
+
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-info-container {
+        width: 100%;
+    }
+
+    .about-text-heading {
+
+        font-size: 0.8rem;
+    }
+
+    .bold-text {
+        font-size: 0.8rem;
+
+    }
+
+    .about-para-one {
+        font-size: 0.8rem;
+    }
+
+    .about-para-two {
+        display: none;
+    }
+
+
+    .stats-container {
+        width: 100%;
+        padding-block-start: 80px;
+
+    }
+
+
+    .home-page-socials {
+        display: flex;
+        flex-wrap: wrap;
+        padding-block-end: 20px;
+    }
+
+    .home-page-btn {
+        padding-block-end: 4px;
+    }
+
+
+    .about-container {
+        display: flex;
+        width: 100%;
+        padding-block-start: 10px;
+        
+    }
+
+}

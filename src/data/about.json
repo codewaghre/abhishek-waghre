@@ -1,0 +1,157 @@
+{
+    "headingText": "cout << \"About Me\"",
+    "about": [
+        {
+            "className": "about-text-heading",
+            "content": [
+                {
+                    "text": "I’m ",
+                    "type": "normal"
+                },
+                {
+                    "text": "Abhishek Waghre",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ", an ",
+                    "type": "normal"
+                },
+                {
+                    "text": "Accomplished Full-Stack Web Developer",
+                    "type": "bold-text"
+                },
+                {
+                    "text": " based in",
+                    "type": "normal"
+                },
+                {
+                    "text": " Mumbai, India",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ", with over ",
+                    "type": "normal"
+                },
+                {
+                    "text": "1 years of experience ",
+                    "type": "bold-text"
+                },
+                {
+                    "text": "building dynamic, high-performance applications across both ",
+                    "type": "normal"
+                },
+                {
+                    "text": "Frontend",
+                    "type": "bold-btn"
+                },
+                {
+                    "text": " and ",
+                    "type": "normal"
+                },
+                {
+                    "text": "Backend ",
+                    "type": "bold-btn"
+                },
+                {
+                    "text": "platforms.",
+                    "type": "normal"
+                }
+            ]
+        },
+        {
+            "className": "about-para-one",
+            "content": [
+                {
+                    "text": "I specialize in developing ",
+                    "type": "normal"
+                },
+                {
+                    "text": "successful Web Application",
+                    "type": "bold-text"
+                },
+                {
+                    "text": " that combine seamless functionality with exceptional user experience. By strategically ",
+                    "type": "normal"
+                },
+                {
+                    "text": "leveraging APIs and web services",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ", I engineer ",
+                    "type": "normal"
+                },
+                {
+                    "text": "scalable",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ",",
+                    "type": "normal"
+                },
+                {
+                    "text": "Secure",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ", and efficient solutions.",
+                    "type": "normal"
+                }
+            ]
+        },
+        {
+            "className": "about-para-two",
+            "content": [
+                {
+                    "text": "I excel at managing multiple priorities in fast-paced environments, applying strong analytical, interpersonal, and problem-solving skills to every stage of development. Whether collaborating with cross-functional teams or leading key initiatives, I strive to innovate and drive value through Web technology.",
+                    "type": "normal"
+                }
+            ]
+        }
+       
+    ],
+    
+  "aboutPageButtons": [
+    {
+      "className": "home-page-btn",
+      "component": "Button",
+      "props": {
+        "text": "Projects",
+        "link": "https://raw.githubusercontent.com/SushantChiplunkar/my-data/main/Project%20Portfolio.pdf"
+      }
+    },
+    {
+      "className": "home-page-btn",
+      "component": "Button",
+      "props": {
+        "text": "Resume",
+        "link" : "https://raw.githubusercontent.com/SushantChiplunkar/my-data/main/sushant%20chiplunkar%20resume%202025.pdf"
+      }
+    }
+  ],
+
+    "stats": [
+        {
+            "className": "exp-stats-container",
+            "innerClass": "exp",
+            "title": "1+",
+            "tagline": "Years of Experience",
+            "taglinetwo": "Delivering clean, scalable web solutions and pixel-perfect interfaces."  
+        },
+        {
+            "className": "project-stats-container",
+            "innerClass": "projects",
+            "title": "10+",
+            "tagline": "Projects Deliverd",
+            "taglinetwo": "Designed and built hands-on projects while self-learning — from dashboards to creative portfolios."
+        },
+        {
+            "className": "tech-stats-container",
+            "innerClass": "tech",
+            "title": "15+",
+            "tagline": "Technology Arsenal",
+            "taglinetwo": "Hands-on with the MERN stack, REST APIs, animations, and SEO-driven builds."
+            
+        }
+    ]
+}

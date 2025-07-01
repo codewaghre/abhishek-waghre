@@ -1,0 +1,111 @@
+.stickybar {
+
+    width: fit-content;
+    padding-inline-start: 5px;
+    position: fixed;
+    top: 70px;
+    z-index: 999;
+
+}
+
+.letter-container {
+    padding-block-start: 12px;
+    padding-inline: 10px;
+    font-size: 1.2rem;
+    border: 1px solid var(--line-color);
+    border-radius: 12px;
+
+}
+
+.letter {
+    position: relative;
+    color: var(--para-color);
+    text-align: center;
+    padding-block: 4px;
+    padding-inline: 4px;
+    margin-bottom: 4px;
+
+    a {
+        color: var(--para-color);
+    }
+}
+
+.letter::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 36px;
+    top: 18px;
+    transform: translateY(-50%);
+    background-color: #101C5C;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-size: 0.75rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.letter:hover::after {
+    opacity: 1;
+}
+
+.letter.active {
+   background-color: rgba(40, 56, 169, 0.41);
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+@media (min-width: 500px) and (max-width: 950px) {
+
+    .letter-container {
+        padding-block-start: 12px;
+        padding-inline: 6px;
+        font-size: 0.8rem;
+        border: 1px solid var(--line-color);
+        border-radius: 8px;
+
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    .letter-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #101b5c3b;
+        width: max-content;
+        padding-inline: 8px;
+        padding-block: 2px;
+    }
+
+    .stickybar {
+        top: 0;
+        position: fixed;
+        padding-block-start: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        width: max-content;
+        width: 100%;
+    }
+
+    .letter-container {
+    padding-block: 6px;
+    padding-inline: 8px;
+    font-size: 0.8rem;
+}
+
+.letter {
+    
+    padding-block-end: 0px;
+
+}
+}

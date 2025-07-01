@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Sora&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Sora", sans-serif; */
+   /* font-family: "Fira Mono", monospace; */
+   font-family: "Fira Mono", monospace;
+}
+
+
+[data-theme="light"]{
+  --bg-color: black;
+  --text-color: black;
+  --para-color: #001b700;
+  --btn-bg-color : rgb(27, 27, 28);
+  --btn-text-color: #DFDFD6;
+
+  --line-color: rgba(17, 17, 17, 0.332) ;
+
+  --gold-color: yellow;
+}
+
+[data-theme="dark"]{
+  --bg-color: rgba(255, 255, 255, 0.342);
+  --text-color: #DFDFD6;
+  --para-color: #A9A9A9;
+  --btn-bg-color : rgb(16, 16, 17);
+  --btn-text-color: #DFDFD6;
+
+  --line-color: rgba(100, 100, 100, 0.332) ;
+
+  --gold-color: rgb(235, 224, 20);
+}
+  
+
+
+
+[data-theme="darkBlue"]{
+  --bg-color: #000000;
+  --text-color: #DFDFD6;
+  --para-color: #A9A9A9;
+  --btn-bg-color : rgb(3, 3, 40);
+  --btn-text-color: #DFDFD6;
+   --line-color: rgba(100, 100, 100, 0.332) ;
+
+    --gold-color: #FFD700;
+}
+
+[data-theme] {
+  transition: background-color 2s ease, color 0.4s ease;
+}
+
+
+

@@ -1,0 +1,14 @@
+{
+    "light": [
+        { "color": "bg-color-black", "theme": "dark" },
+        { "color": "bg-color-blue", "theme": "darkBlue" }
+    ],
+    "dark": [
+        { "color": "bg-color-white", "theme": "light" },
+        { "color": "bg-color-blue", "theme": "darkBlue" }
+    ],
+    "darkBlue": [
+        { "color": "bg-color-white", "theme": "light" },
+        { "color": "bg-color-black", "theme": "dark" }
+    ]
+}

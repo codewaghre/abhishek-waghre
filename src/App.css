@@ -1,0 +1,103 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+.main-bg{
+  background-color: var(--bg-color);
+  padding-block-start: 18px;
+
+}
+
+.section-wrapper{
+  overflow-x: hidden;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  /* height: 100vh;  temp  */
+}
+
+.section-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.section-wrapper {
+  overflow: visible; 
+  position: relative;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  color: var(--text-color);
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--bg-text-color);
+
+}
+
+button{
+  cursor: pointer;
+}
+
+
+
+/*  Btn code */
+.connect-btn {
+    /*  padding-block-end: 50px;*/
+
+    button {
+        background-color: var(--btn-bg-color);
+        padding-inline: 20px;
+        padding-block: 10px;
+        color: var(--btn-text-color);
+        font-weight: 500;
+        border: 1px solid rgba(255, 255, 255, 0.358);
+        border-radius: 8px;
+    }
+
+}
+
+/* Social Link and Button Container  */
+.social-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: var(--para-color);
+    font-size: 1.5rem;
+    gap: 20px;
+
+}
+
+
+.text-transition {
+  position: relative;
+  display: inline-block;
+  height: 1em;
+}
+
+.text-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: opacity 0.05s ease-in-out;
+  white-space: nowrap;
+}
+
+.text-original {
+  opacity: 1;
+}
+
+.text-hover {
+  opacity: 0;
+}
+
+.heading-one:hover .text-original {
+  opacity: 0;
+}
+
+.heading-one:hover .text-hover {
+  opacity: 1;
+}
+

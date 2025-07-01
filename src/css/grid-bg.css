@@ -1,0 +1,37 @@
+
+
+
+.bg-light{
+  background-color:#ffffff ;
+  background-image:
+    linear-gradient(to right, #22ff0027  1px, transparent 1px),
+    linear-gradient(to bottom, #22ff0037 1px, transparent 1px),
+    linear-gradient(to right, #04ff0042 1px, transparent 1px),
+    linear-gradient(to bottom, #04ff004b  1px, transparent 1px);
+  background-size: 10px 10px, 10px 10px, 50px 50px, 50px 50px;
+  border: 1px solid #04ff004b ;
+}
+
+
+.bg-blue{
+  background-color:#01061B ;
+  background-image:
+    linear-gradient(to right, #22ff000f  1px, transparent 1px),
+    linear-gradient(to bottom, #22ff000d 1px, transparent 1px),
+    linear-gradient(to right, #04ff0018 1px, transparent 1px),
+    linear-gradient(to bottom, #04ff0014  1px, transparent 1px);
+  background-size: 10px 10px, 10px 10px, 50px 50px, 50px 50px;
+  border-top: 1.5px solid #04ff0044 ;
+}
+
+
+.bg-dark{
+   background-color: #090909;
+  background-image:
+    linear-gradient(to right, #22ff0019  1px, transparent 1px),
+    linear-gradient(to bottom, #22ff000d 1px, transparent 1px),
+    linear-gradient(to right, #04ff0018 1px, transparent 1px),
+    linear-gradient(to bottom, #04ff0014  1px, transparent 1px);
+  background-size: 10px 10px, 10px 10px, 50px 50px, 50px 50px;
+  border-top: 1.5px solid #04ff00bb ;
+}

@@ -1,0 +1,22 @@
+{
+    "heading": "System.out.print(\"Work Experiance\")",
+    "work": [
+        {
+            "year": "01/2025 - 05/2025",
+            "position": "Freelance Web Developer",
+            "company": "The Creative Bugs Media",
+            "p1": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
+            "p2": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
+            "p3": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution."
+        },
+        {
+            "year": "2023 - 2024",
+            "position": "Flutter Developer, Sr. developer",
+            "company": "Winjit Technologies Pvt Ltd",
+            "p1": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
+            "p2": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
+            "p3": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
+            "p4": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution."
+        }
+    ]
+}

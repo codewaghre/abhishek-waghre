@@ -1,0 +1,38 @@
+
+{
+     "heading": "print(\"Projects\")",
+    "des": "Showcasing my journey through full-stack web development.",
+    "project": [
+        {
+            "image": "./project/e-com.png",
+            "live": "https://e-commerce-2025-lilac.vercel.app/",
+            "alt" : "projectimg",
+            "source": "https://github.com/codewaghre/e-commerce-2025",
+            "projectName": "E-Commerce - Buy Better"
+        },
+
+        {
+            "image": "./project/codeoverflow.png",
+            "live": "https://code-over-flow-phi.vercel.app/",
+            "alt" : "projectimg",
+            "source": "https://github.com/codewaghre/code-overFlow",
+            "projectName": "Code-Overflow — Q&A Forum"
+        },
+
+        {
+            "image": "./project/blackto.png",
+            "alt" : "projectimg",
+            "source": "https://github.com/codewaghre/Blackto?tab=readme-ov-file",
+            "projectName": "BlackTo — Final Year Project"
+        },
+        {
+            "image": "./project/magma.png",
+            "live": "https://magma-copy.netlify.app",
+            "alt" : "projectimg",
+            "source": "https://github.com/codewaghre/MAGMA",
+            "projectName": "Magma - Thought Hub"
+        }
+
+       
+    ]
+}
