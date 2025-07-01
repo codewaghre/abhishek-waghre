@@ -6,17 +6,16 @@
             "position": "Freelance Web Developer",
             "company": "The Creative Bugs Media",
             "p1": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
-            "p2": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
-            "p3": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution."
+            "p2": "Enhanced user engagement by 40% through the integration of lightweight Lottie animations and micro-interaction animations for visual interactivity.",
+            "p3": "Reduced bounce rate by 30% using React Blurhash for intelligent image preloaders.",
+            "p4" : "Optimized UI components and codebase for mobile-first design and fast rendering, improving cross-device performance and load times."
         },
         {
-            "year": "2023 - 2024",
-            "position": "Flutter Developer, Sr. developer",
-            "company": "Winjit Technologies Pvt Ltd",
-            "p1": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
-            "p2": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
-            "p3": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution.",
-            "p4": "Designed and developed a fully responsive, SEO-optimized website from scratch using React.js, improving page load performance by 90% compared to the previous website and third-party solution."
+            "year": "05/2023 - 08/2024",
+            "position": "Android Developer Intern",
+            "company": "Maxgen Technologies",
+            "p1": "Developed and maintained feature-rich Android applications with a focus on responsive UI implementation, robust API integration, and smooth user experience.",
+            "p2": "Collaborated with senior developers to enhance app performance, resolve critical bugs, and modernize the legacy codebase for improved scalability and maintainability."
         }
     ]
 }

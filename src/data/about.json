@@ -116,16 +116,8 @@
       "className": "home-page-btn",
       "component": "Button",
       "props": {
-        "text": "Projects",
-        "link": "https://raw.githubusercontent.com/SushantChiplunkar/my-data/main/Project%20Portfolio.pdf"
-      }
-    },
-    {
-      "className": "home-page-btn",
-      "component": "Button",
-      "props": {
         "text": "Resume",
-        "link" : "https://raw.githubusercontent.com/SushantChiplunkar/my-data/main/sushant%20chiplunkar%20resume%202025.pdf"
+        "link" : "https://raw.githubusercontent.com/codewaghre/abhishek-waghre/main/public/resume/Abhishek%20Waghre%20v0.pdf"
       }
     }
   ],

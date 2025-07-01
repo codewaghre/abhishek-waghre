@@ -41,7 +41,8 @@ function Work() {
                                         <ul>
                                             <li className='work-des'>{work.p1}</li>
                                             <li className='work-des'>{work.p2}</li>
-                                            <li className='work-des'>{work.p3}</li>
+                                            {work.p3 ? <li className='work-des'>{work.p3}</li> : ""}
+                                            {work.p4 ? <li className='work-des'>{work.p4}</li> : ""}
                                         </ul>
                                     </div>
                                 </div>

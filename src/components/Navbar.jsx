@@ -47,7 +47,7 @@ function Navbar() {
                             500,
                             'Everyday',
                             500,
-                            'Sometimes',
+                            'Sometime',
                             500,
                             'Rarely',
                             500,
